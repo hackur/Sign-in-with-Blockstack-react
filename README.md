@@ -85,7 +85,7 @@ This was included in case the developer want to not render a sign in or sign out
 
 ### Custom Styling
 
-All styling has been done inline to control the areas to manipulate and name issues. All aspects of the button can be customized in terms of styling. The text can be styled with `textStyle` prop. The image/logo can be styled with `imageStyle` prop. The sign out button can be styled with `signOutStyle` prop. The sign in button can be styled with `signInStyle` prop. Both buttons can be styled with `style` prop. If you set a `style` prop, it voids/ignores all default styles.
+All styling has been done inline to control the areas to manipulate and name issues. All aspects of the button can be customized in terms of styling. The text can be styled with `textStyle` prop. The image/logo can be styled with `imageStyle` prop. The sign out button can be styled with `signOutStyle` prop. The sign in button can be styled with `signInStyle` prop. Both buttons can be styled with `style` prop. You can remove default styling with `defaultStyle` prop.
 
 ```js
 <SignInBlockstackButton
@@ -104,7 +104,7 @@ All styling has been done inline to control the areas to manipulate and name iss
   }}
 />
 
-// or
+// or for both buttons at once and remove default
 
 <SignInBlockstackButton
   isSignedIn={this.state.isLoggedIn}
@@ -114,6 +114,7 @@ All styling has been done inline to control the areas to manipulate and name iss
   style={{
     backgroundColor: '#fff',
   }}
+  defaultStyle={{}}
 />
 ```
 
