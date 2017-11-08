@@ -9,7 +9,7 @@ npm install blockstack-signin-btn
 
 ## Use
 
-There are two components in this library: `SignInBlockstackButton` and `SignInBlockstackLiteButton`. `SignInBlockstackButton` has the blockstack sign in and sign out functions written. These functions are passed into `SignInBlockstackLiteButton` and `SignInBlockstackButton` uses `SignInBlockstackLiteButton`. Reference the code for more.
+There are two components in this library: `SignInBlockstackButton` and `SignInBlockstackLiteButton`. `SignInBlockstackButton` has the blockstack sign in and sign out functions written. These functions are passed into `SignInBlockstackLiteButton` as props. `SignInBlockstackButton` uses `SignInBlockstackLiteButton`. Reference the code for more.
 
 
 ### Importing
