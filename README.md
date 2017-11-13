@@ -5,7 +5,7 @@
 ## Installing
 
 ```bash
-npm install blockstack-signin-btn
+npm install blockstack-signin-btn --save
 ```
 
 ## Use
