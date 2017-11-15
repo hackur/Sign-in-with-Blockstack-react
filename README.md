@@ -1,6 +1,6 @@
 # Sign In with Blockstack Button (React Component)
 
-![Image of Sign in with Blockstack react component](https://raw.githubusercontent.com/keithweaver/Sign-in-with-Blockstack-react/assets/main.png?token=AGNQQHNT7O8dcvjYWR1BxXd4-CoUUisqks5aDIbWwA%3D%3D)
+![Image of Sign in with Blockstack react component](https://raw.githubusercontent.com/keithweaver/Sign-in-with-Blockstack-react/assets/main.png)
 
 ## Installing
 
