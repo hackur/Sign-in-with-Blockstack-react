@@ -26,9 +26,7 @@ import { SignInBlockstackButton, SignInBlockstackLiteButton } from 'blockstack-s
 This is the bare minimum. You should reference the `blockstack.js` library to check if the user is logged in with `blockstack.isUserSignedIn()` and pass that to `isSignedIn`.
 
 ```js
-<SignInBlockstackButton
-  isSignedIn={this.state.isLoggedIn}
-/>
+<SignInBlockstackButton />
 ```
 
 ### Customize Button Text
@@ -37,7 +35,6 @@ You can change the button text from the default of `Sign In with Blockstack` and
 
 ```js
 <SignInBlockstackButton
-  isSignedIn={this.state.isLoggedIn}
   signInBtnText="New Sign In Text"
   signOutBtnText="New Sign Out Text"
 />
@@ -49,7 +46,6 @@ We include the Blockstack logo on the left side of the button. You can hide this
 
 ```js
 <SignInBlockstackButton
-  isSignedIn={this.state.isLoggedIn}
   includeBlockstackLogo={false}
 />
 ```
@@ -60,7 +56,6 @@ This is just for `SignInBlockstackButton` and not the lite. Since the sign out f
 
 ```js
 <SignInBlockstackButton
-  isSignedIn={this.state.isLoggedIn}
   signOutRedirect="/custom-signout-page"
 />
 ```
@@ -71,14 +66,12 @@ This was included in case the developer want to not render a sign in or sign out
 
 ```js
 <SignInBlockstackButton
-  isSignedIn={this.state.isLoggedIn}
   renderNothing
 />
 
 // or
 
 <SignInBlockstackButton
-  isSignedIn={this.state.isLoggedIn}
   renderNothing={true}
 />
 ```
@@ -90,7 +83,6 @@ All styling has been done inline to control the areas to manipulate and name iss
 
 ```js
 <SignInBlockstackButton
-  isSignedIn={this.state.isLoggedIn}
   textStyle={{
     fontSize: 24,
   }}
@@ -108,7 +100,6 @@ All styling has been done inline to control the areas to manipulate and name iss
 // or for both buttons at once and remove default
 
 <SignInBlockstackButton
-  isSignedIn={this.state.isLoggedIn}
   textStyle={{
     color: '#2e2e2e',
   }}
@@ -149,9 +140,7 @@ npm run dev
 An app will be running on http://localhost:8080 and you will be able to add `blockstack-signin-btn` to it. If you open `src/components/App.js` and add `import { SignInBlockstackButton } from 'blockstack-signin-btn';` to the top. Then add code below to the render. It will add the button. This request will however fail because you need the `manifest.json` and other Blockstack parts.
 
 ```js
-<SignInBlockstackButton
-  isSignedIn={false}
-/>
+<SignInBlockstackButton />
 ```
 
 
