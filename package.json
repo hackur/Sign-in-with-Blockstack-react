@@ -1,6 +1,6 @@
 {
   "name": "blockstack-signin-btn",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A React component to load a Sign in with Blockstack button",
   "main": "build/index.js",
   "scripts": {
